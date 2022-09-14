@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="17">
+<iograft_identification>iograft v1.3.2</iograft_identification>
+<contents class_id="0" tracking_level="0" version="0">
+	<graph class_id="1" tracking_level="1" version="1" object_id="_0">
+		<nodes class_id="10" tracking_level="0" version="0">
+			<count>6</count>
+			<item_version>1</item_version>
+			<item class_id="11" tracking_level="0" version="1">
+				<px class_id="2" tracking_level="1" version="0" object_id="_1">
+					<NodeSerializationData class_id="12" tracking_level="0" version="2">
+						<node_id>039e006b-5b9a-4aab-a947-f229f24b2790</node_id>
+						<custom_name>format_string1</custom_name>
+						<position class_id="13" tracking_level="0" version="0">
+							<first>8.037100220e+02</first>
+							<second>-1.549530888e+01</second>
+						</position>
+						<editable_input_types class_id="14" tracking_level="0" version="0">
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_input_types>
+						<editable_output_types>
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_output_types>
+					</NodeSerializationData>
+					<node_type_id class_id="15" tracking_level="0" version="0">
+						<type_name>format_string</type_name>
+						<node_namespace></node_namespace>
+						<developer_id>0</developer_id>
+					</node_type_id>
+				</px>
+			</item>
+			<item>
+				<px class_id_reference="2" object_id="_2">
+					<NodeSerializationData>
+						<node_id>626bdf4b-de7f-4237-a39c-948f99e8be50</node_id>
+						<custom_name>create_empty_dictionary1</custom_name>
+						<position>
+							<first>9.125377655e+01</first>
+							<second>-1.757137909e+02</second>
+						</position>
+						<editable_input_types>
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_input_types>
+						<editable_output_types>
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_output_types>
+					</NodeSerializationData>
+					<node_type_id>
+						<type_name>create_empty_dictionary</type_name>
+						<node_namespace></node_namespace>
+						<developer_id>0</developer_id>
+					</node_type_id>
+				</px>
+			</item>
+			<item>
+				<px class_id_reference="2" object_id="_3">
+					<NodeSerializationData>
+						<node_id>8779647c-3967-4a5b-8142-606731d5b776</node_id>
+						<custom_name>set_dictionary_value1</custom_name>
+						<position>
+							<first>4.420000000e+02</first>
+							<second>-1.600000000e+01</second>
+						</position>
+						<editable_input_types>
+							<count>2</count>
+							<item_version>0</item_version>
+							<item class_id="16" tracking_level="0" version="0">
+								<first>key</first>
+								<second class_id="17" tracking_level="0" version="0">
+									<type_name>string</type_name>
+									<type_namespace></type_namespace>
+									<developer_id>0</developer_id>
+									<list_dimension>0</list_dimension>
+								</second>
+							</item>
+							<item>
+								<first>value</first>
+								<second>
+									<type_name>string</type_name>
+									<type_namespace></type_namespace>
+									<developer_id>0</developer_id>
+									<list_dimension>0</list_dimension>
+								</second>
+							</item>
+						</editable_input_types>
+						<editable_output_types>
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_output_types>
+					</NodeSerializationData>
+					<node_type_id>
+						<type_name>set_dictionary_value</type_name>
+						<node_namespace></node_namespace>
+						<developer_id>0</developer_id>
+					</node_type_id>
+				</px>
+			</item>
+			<item>
+				<px class_id="5" tracking_level="1" version="0" object_id="_4">
+					<NodeSerializationData>
+						<node_id>dd0ab5fc-b7d1-4b3c-8357-8d186c15d184</node_id>
+						<custom_name></custom_name>
+						<position>
+							<first>9.091825867e+01</first>
+							<second>1.832070160e+02</second>
+						</position>
+						<editable_input_types>
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_input_types>
+						<editable_output_types>
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_output_types>
+					</NodeSerializationData>
+					<name>name</name>
+					<type>
+						<type_name>string</type_name>
+						<type_namespace></type_namespace>
+						<developer_id>0</developer_id>
+						<list_dimension>0</list_dimension>
+					</type>
+				</px>
+			</item>
+			<item>
+				<px class_id_reference="5" object_id="_5">
+					<NodeSerializationData>
+						<node_id>5806dcd0-b723-429d-bf7a-f99f3febc3c9</node_id>
+						<custom_name></custom_name>
+						<position>
+							<first>4.372630920e+02</first>
+							<second>-2.160042877e+02</second>
+						</position>
+						<editable_input_types>
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_input_types>
+						<editable_output_types>
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_output_types>
+					</NodeSerializationData>
+					<name>template</name>
+					<type>
+						<type_name>string</type_name>
+						<type_namespace></type_namespace>
+						<developer_id>0</developer_id>
+						<list_dimension>0</list_dimension>
+					</type>
+				</px>
+			</item>
+			<item>
+				<px class_id="6" tracking_level="1" version="0" object_id="_6">
+					<NodeSerializationData>
+						<node_id>6b912e64-de8a-4acf-aada-f11962878a97</node_id>
+						<custom_name></custom_name>
+						<position>
+							<first>1.155893921e+03</first>
+							<second>4.336633682e+01</second>
+						</position>
+						<editable_input_types>
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_input_types>
+						<editable_output_types>
+							<count>0</count>
+							<item_version>0</item_version>
+						</editable_output_types>
+					</NodeSerializationData>
+					<name>output</name>
+					<type>
+						<type_name>string</type_name>
+						<type_namespace></type_namespace>
+						<developer_id>0</developer_id>
+						<list_dimension>0</list_dimension>
+					</type>
+				</px>
+			</item>
+		</nodes>
+		<connections class_id="18" tracking_level="0" version="0">
+			<count>5</count>
+			<item_version>0</item_version>
+			<item class_id="19" tracking_level="0" version="0">
+				<output_node_id>039e006b-5b9a-4aab-a947-f229f24b2790</output_node_id>
+				<output_plug_name>formatted_string</output_plug_name>
+				<input_node_id>6b912e64-de8a-4acf-aada-f11962878a97</input_node_id>
+				<input_plug_name>input</input_plug_name>
+			</item>
+			<item>
+				<output_node_id>5806dcd0-b723-429d-bf7a-f99f3febc3c9</output_node_id>
+				<output_plug_name>output</output_plug_name>
+				<input_node_id>039e006b-5b9a-4aab-a947-f229f24b2790</input_node_id>
+				<input_plug_name>template_string</input_plug_name>
+			</item>
+			<item>
+				<output_node_id>626bdf4b-de7f-4237-a39c-948f99e8be50</output_node_id>
+				<output_plug_name>dictionary</output_plug_name>
+				<input_node_id>8779647c-3967-4a5b-8142-606731d5b776</input_node_id>
+				<input_plug_name>dictionary</input_plug_name>
+			</item>
+			<item>
+				<output_node_id>8779647c-3967-4a5b-8142-606731d5b776</output_node_id>
+				<output_plug_name>dictionary</output_plug_name>
+				<input_node_id>039e006b-5b9a-4aab-a947-f229f24b2790</input_node_id>
+				<input_plug_name>named_args</input_plug_name>
+			</item>
+			<item>
+				<output_node_id>dd0ab5fc-b7d1-4b3c-8357-8d186c15d184</output_node_id>
+				<output_plug_name>output</output_plug_name>
+				<input_node_id>8779647c-3967-4a5b-8142-606731d5b776</input_node_id>
+				<input_plug_name>value</input_plug_name>
+			</item>
+		</connections>
+		<dependencies class_id="20" tracking_level="0" version="0">
+			<count>0</count>
+			<item_version>0</item_version>
+		</dependencies>
+		<user_inputs class_id="21" tracking_level="0" version="0">
+			<count>2</count>
+			<item_version>1</item_version>
+			<item class_id="22" tracking_level="0" version="1">
+				<px class_id="8" tracking_level="1" version="0" object_id="_7">
+					<InputData class_id="23" tracking_level="0" version="0">
+						<node_id>8779647c-3967-4a5b-8142-606731d5b776</node_id>
+						<input_name>key</input_name>
+					</InputData>
+					<value>name</value>
+				</px>
+			</item>
+			<item>
+				<px class_id_reference="8" object_id="_8">
+					<InputData>
+						<node_id>00000000-0000-0000-0000-000000000000</node_id>
+						<input_name>template</input_name>
+					</InputData>
+					<value>Hello, {name}!</value>
+				</px>
+			</item>
+		</user_inputs>
+		<notes class_id="24" tracking_level="0" version="0">
+			<count>2</count>
+			<item_version>0</item_version>
+			<item class_id="25" tracking_level="0" version="0">
+				<id>73814830-6bac-48b9-bf15-57ace0fe0045</id>
+				<text>Expand the output or hover over the input connection to see the generated message!</text>
+				<color>yellow</color>
+				<dimensions>
+					<first>2.000000000e+02</first>
+					<second>1.500000000e+02</second>
+				</dimensions>
+				<position>
+					<first>1.157371582e+03</first>
+					<second>-1.239145508e+02</second>
+				</position>
+			</item>
+			<item>
+				<id>ff8faecc-74f1-4fc2-93e9-d9b0f7cca9c3</id>
+				<text>Enter your name here to generate a proper &quot;Hello, World!&quot; in iograft.</text>
+				<color>yellow</color>
+				<dimensions>
+					<first>2.000000000e+02</first>
+					<second>1.500000000e+02</second>
+				</dimensions>
+				<position>
+					<first>9.315486908e+01</first>
+					<second>1.566526699e+01</second>
+				</position>
+			</item>
+		</notes>
+		<groups class_id="26" tracking_level="0" version="0">
+			<count>0</count>
+			<item_version>0</item_version>
+		</groups>
+		<executor class_id="27" tracking_level="0" version="0">
+			<authored_executor></authored_executor>
+		</executor>
+		<environment class_id="28" tracking_level="0" version="0">
+			<named_environment></named_environment>
+		</environment>
+	</graph>
+</contents>
+</boost_serialization>
+
